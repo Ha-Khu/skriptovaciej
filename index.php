@@ -30,6 +30,11 @@
         foreach($data as $name => $age) {
             echo "$name má $age rokov <br>";
         }
+
+        $pole  = array("jablko", "banán", "pomaranč");
+        foreach($pole as $jedno) {
+            echo"$jedno<br>";
+        }
     ?>
 </body>
 </html>
